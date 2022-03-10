@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Conversor Temperatura</title>
+</head>
+</head>
+<body>
+  <header>
+   <h1>Digite Abaixo A Temperatura Em Celcius</h1>
+  <input type="number" id="temperatura" placeholder="Temperatura Em Celcius"> <br>
+  <button type="number" id="botao" onclick="calc()">Calcule</button>
+  </header>
+  <h1>Temperatura Em Farenheit</h1>
+  <p id="farenheit"></p>
+  <h1>Temperatura em Kelvin</h1>
+  <p id="kelvin"></p>
+
+  <p><a href="media.html"  class="pag" >Pagina Anterior</a> || <a href="#"  class="pag">Proxima Pagina</a> </p>
+  
+  <footer>
+    <p>Desenvolvido Por Ariel Freitas</p>
+  </footer>
+</body>
+<script>
+    function calc(){
+  
+  var temp = document.getElementById("temperatura");
+  var celcius = temp.value;
+  
+  var farenheit = celcius * 33.8;
+  var kelvin = celcius * 274.15;
+
+      far=farenheit.toFixed(2);
+      kel=kelvin.toFixed(2);
+
+  var exfarenheit = document.getElementById("farenheit");
+  var txtf = "A Temperatura em Farenheit é de : " +far;
+  var exkelvin = document.getElementById("kelvin");
+  var txtk = "A Temperatura em Kelvin é de : " +kel;
+  
+  exfarenheit.innerHTML = txtf;
+  exkelvin.innerHTML = txtk;
+  
+}
+</script>
+</html>

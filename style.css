@@ -1,0 +1,22 @@
+@charset "UTF-08";
+
+
+body{
+  background-color:lightblue;
+  padding-top:150px;
+  text-align : center;
+}
+#result{
+  display: inline-block;
+  margin-top: 20px;
+  
+  width: 180px;
+  background-color:blue;
+  color: white;
+}
+#myButton{
+  
+  padding:0px;
+  width:100px;
+  height:20px;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-08";
+body{
+  padding-top: 130px;
+    font-weight: bold;
+    font-size: large;
+    color:rgb(0, 0, 0);
+    background-color:rgb(145, 236, 145);
+    text-align:center;
+    text-shadow: 1px 1px 1px rgba(109, 55, 55, 0.63);
+  }
+  #botao{
+    
+    margin-top : 20px;
+  }
+  .pag{
+
+   
+    color: rgb(77, 94, 51);
+    text-decoration: none;
+  }
+  footer{
+  
+  padding-top: 20px;
+}
