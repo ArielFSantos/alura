@@ -1,0 +1,48 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    text-align: center;
+}
+body{
+    
+    background-size: cover;
+    background-image: url(background.jpg);
+}
+h1{
+    font-family: 'dancing script', cursive;
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 5px 8px rgb(230, 38, 220);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#numero{
+    margin-bottom: 20px;
+}
+#resultado{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 200px;
+    background-color: rgba(92, 27, 92, 0.658);
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#botao,#numero{
+    border-radius: 10px;
+}
+footer{
+    font-weight: bold;
+    font-size: 20px;
+}
+.pagina{
+    font-weight: bold;
+    text-decoration: none;
+    color: black
+    
+}
